@@ -1,0 +1,222 @@
+[2020-11-08 01:11:09] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:11:10] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:19:44] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:19:44] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:19:44] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:19:44] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:19:44] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:19:44] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:19:44] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:20:38] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:20:38] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:20:38] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"123456"}
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 11] 期望结果： <h1>登录成功</h1>
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:20:38] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:20:38] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:20:38] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:20:38] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:22:20] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:22:20] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:22:20] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"123456"}
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 11] 期望结果： <h1>登录成功</h1>
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:22:20] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:22:20] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:22:20] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:22:20] DEBUG [query_db: db.py, 20] select * from user where name = '张三'
+[2020-11-08 01:22:20] DEBUG [query_db: db.py, 24] (('张三', '123456'),)
+[2020-11-08 01:22:20] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:22:20] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:22:22] INFO [send_email: send_email.py, 25] 邮件发送完成！
+[2020-11-08 01:22:22] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:24:09] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:24:09] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:24:09] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"123456"}
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 11] 期望结果： <h1>登录成功</h1>
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:24:09] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:24:09] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:24:09] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:24:09] DEBUG [query_db: db.py, 20] select * from user where name = '张三'
+[2020-11-08 01:24:09] DEBUG [query_db: db.py, 24] (('张三', '123456'),)
+[2020-11-08 01:24:09] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:24:09] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:24:11] INFO [send_email: send_email.py, 25] 邮件发送完成！
+[2020-11-08 01:24:11] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:26:45] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:26:45] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:26:45] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"123456"}
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 11] 期望结果： <h1>登录成功</h1>
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:26:45] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:26:45] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:26:45] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:26:45] DEBUG [query_db: db.py, 20] select * from user where name = '张三'
+[2020-11-08 01:26:45] DEBUG [query_db: db.py, 24] (('张三', '123456'),)
+[2020-11-08 01:26:45] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:26:45] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:26:45] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:28:44] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:28:44] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:31:05] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:31:05] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:36:19] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:36:19] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:36:33] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:36:33] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:37:15] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:37:15] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:37:42] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:37:42] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:37:59] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:37:59] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:40:26] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:40:26] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:40:39] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:40:39] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:42:55] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:42:55] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:42:55] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:42:55] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:42:55] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:42:55] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:42:55] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:43:14] DEBUG [query_db: db.py, 20] select * from user where name = '张三'
+[2020-11-08 01:43:14] DEBUG [query_db: db.py, 24] (('张三', '123456'),)
+[2020-11-08 01:43:29] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:43:29] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:43:29] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:43:29] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:43:29] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:43:29] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:43:29] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:44:18] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:44:18] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:45:08] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:45:08] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:45:08] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:45:08] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:45:08] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:45:08] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:45:08] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:46:33] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:46:33] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:46:33] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-11-08 01:48:41] INFO [<module>: run_all.py, 6] ================================== 测试开始 ==================================
+[2020-11-08 01:48:41] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:48:41] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_normal
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"123456"}
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 11] 期望结果： <h1>登录成功</h1>
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:48:41] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:48:41] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:48:41] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
+[2020-11-08 01:48:41] DEBUG [query_db: db.py, 20] select * from user where name = '张三'
+[2020-11-08 01:48:41] DEBUG [query_db: db.py, 24] (('张三', '123456'),)
+[2020-11-08 01:48:41] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-11-08 01:48:43] DEBUG [query_db: db.py, 20] select * from user where name = '范冰冰'
+[2020-11-08 01:48:43] DEBUG [query_db: db.py, 24] ()
+[2020-11-08 01:48:43] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 127.0.0.1:5000
+[2020-11-08 01:48:45] INFO [<module>: run_all.py, 14] ================================== 测试结束 ==================================
+[2020-11-08 01:49:34] DEBUG [_new_conn: connectionpool.py, 230] Starting new HTTP connection (1): 115.28.108.130:5000
+[2020-11-08 01:49:34] DEBUG [_make_request: connectionpool.py, 442] http://115.28.108.130:5000 "POST /api/user/login/ HTTP/1.1" 500 291
+[2020-11-08 01:49:34] INFO [log_case_info: case_log.py, 8] 测试用例：test_user_login_password_wrong
+[2020-11-08 01:49:34] INFO [log_case_info: case_log.py, 9] url：http://115.28.108.130:5000/api/user/login/
+[2020-11-08 01:49:34] INFO [log_case_info: case_log.py, 10] 请求参数：{"name": "张三","password":"1234567"}
+[2020-11-08 01:49:34] INFO [log_case_info: case_log.py, 11] 期望结果：<h1>失败，用户名或密码错误</h1>
+[2020-11-08 01:49:34] INFO [log_case_info: case_log.py, 12] 实际结果：<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>500 Internal Server Error</title>
+<h1>Internal Server Error</h1>
+<p>The server encountered an internal error and was unable to complete your request.  Either the server is overloaded or there is an error in the application.</p>
+
